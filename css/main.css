@@ -1,4 +1,6 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -17,12 +19,22 @@ body {
   border-radius: 8px;
 }
 
-h1, h2 {
+h1,
+h2 {
   margin: 30px 0;
   text-align: center;
 }
 
-video, audio, .mejs-treehouse {
+.videoWrapper,
+.audioWrapper {
   margin: 0 auto;
   display: block;
+}
+
+.videoWrapper {
+  width: 852px;
+}
+
+.audioWrapper {
+  width: 400px;
 }
